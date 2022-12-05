@@ -10,7 +10,7 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: #262626;
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -412,4 +412,12 @@ textarea {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.selection {
+    font-weight: 700;
+    font-size: 72px;
+    background: #262626;
+    color: white;
+    border: 0px;
 }
